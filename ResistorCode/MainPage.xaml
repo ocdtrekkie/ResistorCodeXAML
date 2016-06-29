@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="ResistorCode.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ResistorCode"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Right" Margin="0,0,10,538" TextWrapping="Wrap" Text="Resistor Colors" VerticalAlignment="Bottom" Height="92" Width="340" FontSize="36"/>
+        <StackPanel HorizontalAlignment="Left" Height="65" Margin="0,107,0,0" VerticalAlignment="Top" Width="350" Orientation="Horizontal">
+            <TextBox x:Name="txtFirst" TextWrapping="Wrap" Text="TextBox" Width="75"/>
+            <TextBox x:Name="txtSecond" TextWrapping="Wrap" Text="TextBox" Width="75"/>
+            <TextBox x:Name="txtThird" TextWrapping="Wrap" Text="TextBox" Width="75"/>
+        </StackPanel>
+        <TextBlock x:Name="lblResult" HorizontalAlignment="Left" Margin="55,259,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="48"/>
+
+    </Grid>
+</Page>
